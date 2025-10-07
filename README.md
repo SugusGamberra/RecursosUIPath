@@ -21,7 +21,7 @@ Aunque si tienes bases de programador te vendrán de lujo, y si no con lo que ap
 
 ## Instalación y configuración inicial de UIPath
 
-1. Crea una cuenta gratuita en https://chatgpt.com/c/68e55452-883c-8329-a173-6eb3d118c970 ; te registras con tu correo o una cuenta de google y una vez dentro, ve al panel "Automation Cloud".
+1. Crea una cuenta gratuita en [https://chatgpt.com/c/68e55452-883c-8329-a173-6eb3d118c970](https://cloud.uipath.com) ; te registras con tu correo o una cuenta de google y una vez dentro, ve al panel "Automation Cloud".
 2. Descarga UIPath Studio desde el panel principal - admin - licenses - studio, IMPORTANTE: la version community que es la gratuita.
 3. Instala normalmente y ve aceptando todo.
 4. Abre UIPath, inicia sesión con la misma cuenta de UIPath Cloud.
