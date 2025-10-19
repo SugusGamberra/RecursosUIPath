@@ -1,0 +1,205 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="ArraysYListas" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="ArraysYListas_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uasa="clr-namespace:UiPath.Activities.System.Arrays;assembly=UiPath.System.Activities" xmlns:uasc="clr-namespace:UiPath.Activities.System.Collections;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Numerics</x:String>
+      <x:String>UiPath.Activities.System.Arrays</x:String>
+      <x:String>UiPath.Activities.System.Collections</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="ArraysYListas" sap:VirtualizedContainerService.HintSize="639,4902" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence sap2010:Annotation.AnnotationText="Ambas son colecciones de datos, en vez de almacenar un valor almacenan varios! Pero existen diferencias que ahora veremos ;3" DisplayName="Arrays y listas" sap:VirtualizedContainerService.HintSize="484,4879" sap2010:WorkflowViewState.IdRef="Sequence_4">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+          <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <Sequence sap2010:Annotation.AnnotationText="Estos tienen un tamaño fijo, son rápidos y simples, sus datos no cambian. Almacenan valores fijos y conocidos como los días de la semana. Para crearlas sencillamente añadimos un assign o desde el data manager creamos nuestra variable y le asignamos el tipo de dato y luego introducimos sus valores!" DisplayName="Arrays" sap:VirtualizedContainerService.HintSize="450,1727" sap2010:WorkflowViewState.IdRef="Sequence_5">
+        <Sequence.Variables>
+          <Variable x:TypeArguments="s:String[]" Name="arr_str_diasSemana" />
+          <Variable x:TypeArguments="s:Int32[]" Name="arr_int_meses" />
+        </Sequence.Variables>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <Assign DisplayName="Array días de la semana (string)" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_1">
+          <Assign.To>
+            <OutArgument x:TypeArguments="s:String[]">[arr_str_diasSemana]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="s:String[]">[{"Lunes", "Martes", "Miércoles", "jueves", "Viernes", "Sábado", "Domingo"}]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <Assign DisplayName="Array meses del año (Int32)" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_2">
+          <Assign.To>
+            <OutArgument x:TypeArguments="s:Int32[]">[arr_int_meses]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="s:Int32[]">[{1,2,3,4,5,6,7,8,9,10,11,12}]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <ui:Comment sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="Comment_1" Text="// Para mostrar tus arrays o listas necesitamos poner la variable de tal forma: &#xD;&#xA;// String.Join(&quot;Separador&quot;, tuArrayOLista)&#xD;&#xA;// Recuerda que puedes concatenar texto con tus variables usando + o &amp;, yo uso + siempre :3&#xD;&#xA;// Y si tienes un tipo que no sea string recuerda convertirlo al final con un .toString&#xD;&#xA;// Muakisss!" />
+        <ui:LogMessage DisplayName="Mostrar ambas arrays" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Tenemos &quot; + String.Join(&quot;, &quot;, arr_str_diasSemana) + &quot; como días de la semana y &quot; + vbCrLf + String.Join(vbCrLf, arr_int_meses) + &quot; meses en el año!&quot;]" />
+        <ui:Comment sap:VirtualizedContainerService.HintSize="416,167" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// Para mostrar un unico elemento de tu array, en el log message/message box pones tuArray(posiciónElemento).&#xD;&#xA;// Recuerda!! Se empieza a contar desde 0, por ende Lunes = 0, Martes = 1, etc." />
+        <ui:LogMessage DisplayName="Mostrar 1 elemento de ambas arrays" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;El primer día de la semana es &quot; + arr_str_diasSemana(0) + &quot; y Marzo es el mes número &quot; + arr_int_meses(2).ToString + &quot; del año!&quot;]" />
+        <ui:Comment sap:VirtualizedContainerService.HintSize="416,108" sap2010:WorkflowViewState.IdRef="Comment_3" Text="// Para modificar un elemento seleccionas la posición y ya debajo lo modificas ;3" />
+        <Assign DisplayName="Modificar un elemento de nuestra array" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_4">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:String">[arr_str_diasSemana(3)]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:String">["Jueves"]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <ui:LogMessage DisplayName="Mostrar modificación" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_3" Message="[String.Join(&quot; - &quot;, arr_str_diasSemana)]" />
+      </Sequence>
+      <Sequence sap2010:Annotation.AnnotationText="Para las listas arrastramos un assign, creamos la variable y definimos el tipo en Data Manager, este paso es tricky en uipath pero te acostumbras ;3 Sencillamente creas la variable, en data type le das a browse, escribes &quot;generic.list&quot; en el buscador y le das al desplegable de arriba para seleccionar el tipo de tu lista, y palante! " DisplayName="Listas" sap:VirtualizedContainerService.HintSize="450,3024" sap2010:WorkflowViewState.IdRef="Sequence_6">
+        <Sequence.Variables>
+          <Variable x:TypeArguments="scg:List(x:String)" Name="lst_str_users" />
+          <Variable x:TypeArguments="scg:List(x:Int32)" Name="lst_int_telefonos" />
+        </Sequence.Variables>
+        <sap:WorkflowViewStateService.ViewState>
+          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+            <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+          </scg:Dictionary>
+        </sap:WorkflowViewStateService.ViewState>
+        <Assign DisplayName="Lista de usuarios" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_5">
+          <Assign.To>
+            <OutArgument x:TypeArguments="scg:List(x:String)">[lst_str_users]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="scg:List(x:String)">[New List(Of String) From {"Paco", "Pepa", "Marilole"}]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_4" Message="[&quot;De momento tenemos estos usuarios: &quot; + String.Join(&quot;, &quot;, lst_str_users)]" />
+        <ui:Comment sap:VirtualizedContainerService.HintSize="416,128" sap2010:WorkflowViewState.IdRef="Comment_4" Text="// Para añadir más elementos podemos usar la actividad append item to list o la actividad append items to collection!" />
+        <uasa:AppendItemToList x:TypeArguments="x:String" ItemIndex="{x:Null}" DisplayName="Append Item to List" sap:VirtualizedContainerService.HintSize="416,167" sap2010:WorkflowViewState.IdRef="AppendItemToList`1_1" ItemToAppend="Juana" List="[lst_str_users]" />
+        <ui:LogMessage DisplayName="Mostrar elemento añadido" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_5" Message="[String.Join(&quot; | &quot;, lst_str_users)]" />
+        <uasc:AppendItemToCollection x:TypeArguments="x:String" Collection="[lst_str_users]" DisplayName="Append Items to Collection (Añadir elementos)" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="AppendItemToCollection`1_1">
+          <uasc:AppendItemToCollection.Items>
+            <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
+              <InArgument x:TypeArguments="x:String">Julián</InArgument>
+              <InArgument x:TypeArguments="x:String">Mario</InArgument>
+              <InArgument x:TypeArguments="x:String">Borja</InArgument>
+            </scg:List>
+          </uasc:AppendItemToCollection.Items>
+        </uasc:AppendItemToCollection>
+        <ui:LogMessage DisplayName="Mostrar elementos añadidos" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_6" Message="[String.Join(vbCrLf, lst_str_users)]" />
+        <ui:Comment sap:VirtualizedContainerService.HintSize="416,264" sap2010:WorkflowViewState.IdRef="Comment_5" Text="// Otra forma de crear listas o colecciones de datos es con la actividad Build Collection.&#xD;&#xA;// Cuando la arrastras, a la derecha en el panel Properties creas la variable (Ctrl + K y escribes su nombre).&#xD;&#xA;// En Data Manager le cambias el tipo buscando en browse &quot;generic.list&quot; y seleccionando el tipo que quieras (string, double, int32...)&#xD;&#xA;// En first item introduce tu primer elemento y en Next items los siguientes! " />
+        <uasc:BuildCollection x:TypeArguments="x:Int32" Items="{x:Null}" DisplayName="Build Collection: Otra forma de crear listas" FirstItem="555555555" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="BuildCollection`1_1" Result="[lst_int_telefonos]">
+          <uasc:BuildCollection.NextItems>
+            <scg:List x:TypeArguments="InArgument(x:Int32)" Capacity="4">
+              <InArgument x:TypeArguments="x:Int32">667666666</InArgument>
+              <InArgument x:TypeArguments="x:Int32">234324234</InArgument>
+              <InArgument x:TypeArguments="x:Int32">52334523</InArgument>
+            </scg:List>
+          </uasc:BuildCollection.NextItems>
+        </uasc:BuildCollection>
+        <ui:LogMessage DisplayName="Mostrar lista numeros" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_7" Message="[String.Join(&quot; - &quot;, lst_int_telefonos)]" />
+        <ui:Comment sap:VirtualizedContainerService.HintSize="416,128" sap2010:WorkflowViewState.IdRef="Comment_6" Text="// Para modificar indicamos la posición que queramos cambiar y abajo le asignamos el nuevo valor ;3" />
+        <Assign DisplayName="Modificar primer elemento" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_8">
+          <Assign.To>
+            <OutArgument x:TypeArguments="x:Int32">[lst_int_telefonos(0)]</OutArgument>
+          </Assign.To>
+          <Assign.Value>
+            <InArgument x:TypeArguments="x:Int32">[555666777]</InArgument>
+          </Assign.Value>
+        </Assign>
+        <ui:LogMessage DisplayName="Mostrar modificacion" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_8" Message="[String.Join(&quot; , &quot;, lst_int_telefonos)]" />
+        <ui:Comment sap:VirtualizedContainerService.HintSize="416,167" sap2010:WorkflowViewState.IdRef="Comment_7" Text="// Para borrar un elemento (o todos) usamos la actividad Remove From Collection&#xD;&#xA;// Seleccionas tu lista&#xD;&#xA;// Especificas si borras uno en concreto o todos&#xD;&#xA;// Escribes exactamente el elemento a borrar&#xD;&#xA;// Tadaaaa!!!" />
+        <uasc:RemoveFromCollection x:TypeArguments="x:Int32" Index="{x:Null}" Collection="[lst_int_telefonos]" DisplayName="Remove From Collection" sap:VirtualizedContainerService.HintSize="416,252" sap2010:WorkflowViewState.IdRef="RemoveFromCollection`1_1" Item="234324234" RemoveAllElements="False" />
+        <ui:LogMessage DisplayName="Mostrar elemento borrado" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_9" Message="[String.Join(&quot; ~ &quot;, lst_int_telefonos)]" />
+      </Sequence>
+    </Sequence>
+  </Sequence>
+</Activity>
