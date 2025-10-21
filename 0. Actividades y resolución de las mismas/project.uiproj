@@ -1,0 +1,6 @@
+{
+  "Name": "Actividades",
+  "ProjectType": "Process",
+  "Description": "Resolución de actividades",
+  "MainFile": "Main.xaml"
+}

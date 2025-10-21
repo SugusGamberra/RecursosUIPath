@@ -1,0 +1,685 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="Resolución_Ejercicios" VisualBasic.Settings="{x:Null}" sap2010:WorkflowViewState.IdRef="Resolución_Ejercicios_1" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:s="clr-namespace:System;assembly=System.Private.CoreLib" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:uasa="clr-namespace:UiPath.Activities.System.Arrays;assembly=UiPath.System.Activities" xmlns:uasc="clr-namespace:UiPath.Activities.System.Collections;assembly=UiPath.System.Activities" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Activities.Validation</x:String>
+      <x:String>System.Activities.XamlIntegration</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>Microsoft.VisualBasic.Activities</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Net.Mail</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>System.Windows.Markup</x:String>
+      <x:String>GlobalVariablesNamespace</x:String>
+      <x:String>GlobalConstantsNamespace</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>System.Linq.Expressions</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>UiPath.Activities.System.Collections</x:String>
+      <x:String>UiPath.Activities.System.Arrays</x:String>
+      <x:String>System.Numerics</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence DisplayName="Resolución_Ejercicios" sap:VirtualizedContainerService.HintSize="1045,12327" sap2010:WorkflowViewState.IdRef="Sequence_1">
+    <sap:WorkflowViewStateService.ViewState>
+      <scg:Dictionary x:TypeArguments="x:String, x:Object">
+        <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+      </scg:Dictionary>
+    </sap:WorkflowViewStateService.ViewState>
+    <Sequence DisplayName="Resolución de las actividades" sap:VirtualizedContainerService.HintSize="616,12304" sap2010:WorkflowViewState.IdRef="Sequence_2">
+      <sap:WorkflowViewStateService.ViewState>
+        <scg:Dictionary x:TypeArguments="x:String, x:Object">
+          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+        </scg:Dictionary>
+      </sap:WorkflowViewStateService.ViewState>
+      <ui:Comment sap:VirtualizedContainerService.HintSize="582,147" sap2010:WorkflowViewState.IdRef="Comment_20" Text="// Para probar cada ejercicio clic sobre el que quieras y haz Ctrl + E para que se active. Para volver a desactivarlo pulsa Ctrl + D y así no interfiere con el resto ;3" />
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="582,1157" sap2010:WorkflowViewState.IdRef="CommentOut_28">
+        <ui:CommentOut.Body>
+          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484,1046" sap2010:WorkflowViewState.IdRef="Sequence_56">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Ejercicio 1" sap:VirtualizedContainerService.HintSize="450,986" sap2010:WorkflowViewState.IdRef="Sequence_55">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="s:String[]" Name="arr_users" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:Comment DisplayName="Enunciado" sap:VirtualizedContainerService.HintSize="416,167" sap2010:WorkflowViewState.IdRef="Comment_5" Text="// Crea un array con los nombres de 5 usuarios de tu nueva app y muéstralos en una lista numerada. Cambia uno de los nombres por otro nuevo y vuelve a mostrar la lista actualizada." />
+              <Assign DisplayName="Nombres usuarios" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_13">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="s:String[]">[arr_users]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="s:String[]">[{"Zagara", "Illidan", "SugusGamberra", "Mario", "Paco"}]</InArgument>
+                </Assign.Value>
+              </Assign>
+              <ui:LogMessage sap2010:Annotation.AnnotationText="Vamos a aprender aquí una nueva forma del separador de salto de línea: vbNewLine!" DisplayName="Mostrar users" sap:VirtualizedContainerService.HintSize="416,220" sap2010:WorkflowViewState.IdRef="LogMessage_7" Message="[String.Join(vbNewLine, arr_users)]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:LogMessage>
+              <Assign DisplayName="Cambio de nombres" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_14">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:String">[arr_users(4)]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:String">["Arthas"]</InArgument>
+                </Assign.Value>
+              </Assign>
+              <ui:LogMessage DisplayName="Array actualizada" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_8" Message="[String.Join(vbNewLine, arr_users)]" />
+            </Sequence>
+          </Sequence>
+        </ui:CommentOut.Body>
+      </ui:CommentOut>
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="582,617" sap2010:WorkflowViewState.IdRef="CommentOut_17">
+        <ui:CommentOut.Body>
+          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484,506" sap2010:WorkflowViewState.IdRef="Sequence_37">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Ejercicio 2" sap:VirtualizedContainerService.HintSize="450,446" sap2010:WorkflowViewState.IdRef="Sequence_27">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:Double" Name="dou_peso" />
+                <Variable x:TypeArguments="x:Double" Name="dou_precioDoritos" />
+                <Variable x:TypeArguments="x:String" Name="str_saludo" />
+                <Variable x:TypeArguments="x:Int32" Name="int_temperatura" />
+                <Variable x:TypeArguments="x:Boolean" Name="boo_mayoriaEdad" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:Comment DisplayName="Enunciado" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="Comment_6" Text="// Desde el panel de variables (Data Manager) crea variables para almacenar los siguientes datos: &#xD;&#xA; a) Si una persona es o no mayor de edad.&#xD;&#xA; b) La temperatura de hoy.&#xD;&#xA; c) Un saludo a tu persona favorita.&#xD;&#xA; d) El precio de un paquete de Doritos.&#xD;&#xA; e) Tu peso." />
+              <ui:Comment DisplayName="Respuesta" sap:VirtualizedContainerService.HintSize="416,177" sap2010:WorkflowViewState.IdRef="Comment_7" Text="// En este ejercicio vemos la solución abajo, en el Data Manager.&#xD;&#xA;&#xD;&#xA;¡Recuerda! El tipo de variable double lo encuentras haciendo clic en browse y escribiendo &quot;double&quot;." />
+            </Sequence>
+          </Sequence>
+        </ui:CommentOut.Body>
+      </ui:CommentOut>
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="582,1204" sap2010:WorkflowViewState.IdRef="CommentOut_26">
+        <ui:CommentOut.Body>
+          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484,1093" sap2010:WorkflowViewState.IdRef="Sequence_50">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Ejercicio 3" sap:VirtualizedContainerService.HintSize="450,1033" sap2010:WorkflowViewState.IdRef="Sequence_49">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="s:Int32[]" Name="arr_puntuacionTBOI" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:Comment DisplayName="Enunciado" sap:VirtualizedContainerService.HintSize="416,167" sap2010:WorkflowViewState.IdRef="Comment_8" Text="// Crea un array con 5 mejores puntuaciones de tu juego favorito, tan solo muestra el valor mínimo y el valor máximo. Modifica una de las puntuaciones y vuelve a mostrarlo con la actualización." />
+              <Assign sap2010:Annotation.AnnotationText="puntuacion min 12 max 99" DisplayName="The Binding of Isaac" sap:VirtualizedContainerService.HintSize="416,206" sap2010:WorkflowViewState.IdRef="Assign_15">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="s:Int32[]">[arr_puntuacionTBOI]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="s:Int32[]">[{12,32,43,54,87}]</InArgument>
+                </Assign.Value>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </Assign>
+              <ui:LogMessage sap2010:Annotation.AnnotationText="Para sacar la puntuación minima usamos tuVariable.Min.toString y para la máxima tuVariable.Max.toString ;3" DisplayName="Puntuacion" sap:VirtualizedContainerService.HintSize="416,236" sap2010:WorkflowViewState.IdRef="LogMessage_9" Level="Info" Message="[&quot;La puntuación mínima es: &quot; + arr_puntuacionTBOI.Min.ToString + vbNewLine + &quot;La puntuación máxima es: &quot; + arr_puntuacionTBOI.Max.ToString]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:LogMessage>
+              <Assign DisplayName="Modificación de la puntuación en TBOI" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_16">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:Int32">[arr_puntuacionTBOI(4)]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:Int32">100</InArgument>
+                </Assign.Value>
+              </Assign>
+              <ui:LogMessage DisplayName="Puntuacion actualizada" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_10" Level="Info" Message="[&quot;La puntuación mínima es: &quot; + arr_puntuacionTBOI.Min.ToString + vbNewLine + &quot;La puntuación máxima es: &quot; + arr_puntuacionTBOI.Max.ToString]" />
+            </Sequence>
+          </Sequence>
+        </ui:CommentOut.Body>
+      </ui:CommentOut>
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="582,743" sap2010:WorkflowViewState.IdRef="CommentOut_19">
+        <ui:CommentOut.Body>
+          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="546,632" sap2010:WorkflowViewState.IdRef="Sequence_39">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Ejercicio 4" sap:VirtualizedContainerService.HintSize="512,572" sap2010:WorkflowViewState.IdRef="Sequence_29">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:Boolean" Name="boo_registroUser" />
+                <Variable x:TypeArguments="x:String" Name="str_monitor" />
+                <Variable x:TypeArguments="x:Double" Name="dou_saldoBanco" />
+                <Variable x:TypeArguments="x:String" Name="str_descuento" />
+                <Variable x:TypeArguments="x:String" Name="str_jeje" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:Comment DisplayName="Enunciado" sap:VirtualizedContainerService.HintSize="478,225" sap2010:WorkflowViewState.IdRef="Comment_9" Text="// Usandola actividad Assign o Multiple assign crea variables para almacenar los siguientes datos:&#xD;&#xA; a) Si un usuario está o no registrado en una app.&#xD;&#xA; b) El nombre de un monitor que te gustaría tener.&#xD;&#xA; c) Tu saldo en tu cuenta bancaria.&#xD;&#xA; d) El descuento de un teclado mecánico.&#xD;&#xA; e) El nombre de tu pinshe ex careverga." />
+              <ui:MultipleAssign DisplayName="Creación de variables" sap:VirtualizedContainerService.HintSize="478,264" sap2010:WorkflowViewState.IdRef="MultipleAssign_1">
+                <ui:MultipleAssign.AssignOperations>
+                  <scg:List x:TypeArguments="ui:AssignOperation" Capacity="8">
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_1">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:Boolean">[boo_registroUser]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:Boolean">True</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:String">[str_monitor]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:String">MSI e89289127 no existe pero chucha que nombres tan raros se aventan los creadores de monitores</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_3">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:Double">[dou_saldoBanco]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:Double">127893.9283</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_4">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:String">[str_descuento]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:String">99%</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_5">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:String">[str_jeje]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:String">Hola Mario capullo devuélveme mi alienware x51</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                  </scg:List>
+                </ui:MultipleAssign.AssignOperations>
+              </ui:MultipleAssign>
+            </Sequence>
+          </Sequence>
+        </ui:CommentOut.Body>
+      </ui:CommentOut>
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="582,1477" sap2010:WorkflowViewState.IdRef="CommentOut_20">
+        <ui:CommentOut.Body>
+          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484,1366" sap2010:WorkflowViewState.IdRef="Sequence_40">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Ejercicio 5" sap:VirtualizedContainerService.HintSize="450,1306" sap2010:WorkflowViewState.IdRef="Sequence_30">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="s:Double[]" Name="arr_temperatura" />
+                <Variable x:TypeArguments="x:Double" Name="dou_media" />
+                <Variable x:TypeArguments="x:Double" Name="dou_nuevaMedia" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:Comment DisplayName="Enunciado" sap:VirtualizedContainerService.HintSize="416,186" sap2010:WorkflowViewState.IdRef="Comment_10" Text="// Tu móvil registra la temperatura diaria durante la semana, haz un array con las temperaturas decimales de esta última semana y muestra la temperatura promedio. Elimina la temperatura del primer día y muestra el promedio después del cambio." />
+              <Assign DisplayName="Temperatura diaria Semana 1" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_17">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="s:Double[]">[arr_temperatura]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="s:Double[]">[{7.5,13.2,10,17.4,8.1,12,4.3}]</InArgument>
+                </Assign.Value>
+              </Assign>
+              <Assign sap2010:Annotation.AnnotationText="Para calcular la media de números usamos &quot;Math.Round(tuVariable.Average(),2)&quot;. De esta forma le estamos diciendo oe, cógeme la variable que tiene to esta pechá de números, hazme un cálculo matemático para decirme la media pero que tenga 2 decimales por favor y gracias." DisplayName="Promedio temperaturas" sap:VirtualizedContainerService.HintSize="416,285" sap2010:WorkflowViewState.IdRef="Assign_18">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:Double">[dou_media]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:Double">[Math.Round(arr_temperatura.Average(), 2)]</InArgument>
+                </Assign.Value>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </Assign>
+              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Media de temperatura semanal" sap:VirtualizedContainerService.HintSize="416,118" sap2010:WorkflowViewState.IdRef="MessageBox_10" Text="[&quot;El promedio de temperatura de esta semana es de: &quot; + String.Join(&quot;,&quot;, dou_media.ToString)]" />
+              <ui:MessageBox Caption="{x:Null}" ChosenButton="{x:Null}" AutoCloseAfter="00:00:00" DisplayName="Nueva media de temperatura semanal" sap:VirtualizedContainerService.HintSize="416,118" sap2010:WorkflowViewState.IdRef="MessageBox_11" Text="[&quot;El promedio corregido de temperatura semanal es de: &quot; + dou_nuevaMedia.ToString]" />
+              <Assign DisplayName="Corrección de Temperatura del día 6" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_19">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:Double">[arr_temperatura(5)]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:Double">10.2</InArgument>
+                </Assign.Value>
+              </Assign>
+              <Assign DisplayName="Nuevo Promedio de Temperatura" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="Assign_20">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:Double">[dou_nuevaMedia]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:Double">[Math.Round( arr_temperatura.Average(), 2 )]</InArgument>
+                </Assign.Value>
+              </Assign>
+            </Sequence>
+          </Sequence>
+        </ui:CommentOut.Body>
+      </ui:CommentOut>
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="582,1175" sap2010:WorkflowViewState.IdRef="CommentOut_21">
+        <ui:CommentOut.Body>
+          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="518,1064" sap2010:WorkflowViewState.IdRef="Sequence_41">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Ejercicio 6" sap:VirtualizedContainerService.HintSize="484,1004" sap2010:WorkflowViewState.IdRef="Sequence_31">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="str_cancionMeh" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:Comment DisplayName="Enunciado" sap:VirtualizedContainerService.HintSize="450,284" sap2010:WorkflowViewState.IdRef="Comment_11" Text="// Crea 2 secuencias y nómbralas como &quot;Secuencia principal&quot; y &quot;Secuencia secundaria&quot;. Crea una variable que almacene tu canción favorita y otra variable con una canción que no te guste nada. Ahora haz que tu variable de canción fav solo pueda acceder a la Secuencia Principal y la de la canción que no te gusta solo pueda acceder a la Secuencia Secundaria. Ahora, crea una variable de una canción que meh, ni te gusta ni la detestas, y haz que pueda acceder a ambas secuencias!" />
+              <ui:Comment DisplayName="Respuesta" sap:VirtualizedContainerService.HintSize="450,264" sap2010:WorkflowViewState.IdRef="Comment_12" Text="// Para cambiar el scope de una variable nos vamos abajito, en Data Manager. Ahí vemos el nombre, el tipo y juuuusto a la derecha el Scope. Ahí puedes seleccionar en qué alcance será visible y usable tu variable!&#xD;&#xA;&#xD;&#xA;Aprovechando el Data Manager: yo crearé mis variables allí! Y allí les cambio el Scope. Por cierto, ya mismitico aquí andará viendo la variable de cancion Meh HAHAHA" />
+              <Sequence DisplayName="Secuencia principal" sap:VirtualizedContainerService.HintSize="450,191" sap2010:WorkflowViewState.IdRef="Sequence_32">
+                <Sequence.Variables>
+                  <Variable x:TypeArguments="x:String" Name="str_cancionFav" />
+                </Sequence.Variables>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:Comment DisplayName="Anotación 1" sap:VirtualizedContainerService.HintSize="416,99" sap2010:WorkflowViewState.IdRef="Comment_13" Text="// Si pinchas aquí podrás ver la variable de cancion fav y la meh!" />
+              </Sequence>
+              <Sequence DisplayName="Secuencia secundaria" sap:VirtualizedContainerService.HintSize="450,182" sap2010:WorkflowViewState.IdRef="Sequence_33">
+                <Sequence.Variables>
+                  <Variable x:TypeArguments="x:String" Name="str_cancionOdiada" />
+                </Sequence.Variables>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+                <ui:Comment DisplayName="Anotación 2" sap:VirtualizedContainerService.HintSize="416,99" sap2010:WorkflowViewState.IdRef="Comment_14" Text="// Si pinchas aquí verás la variable de la cancion odiada y la meh ;D" />
+              </Sequence>
+            </Sequence>
+          </Sequence>
+        </ui:CommentOut.Body>
+      </ui:CommentOut>
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="582,1138" sap2010:WorkflowViewState.IdRef="CommentOut_22">
+        <ui:CommentOut.Body>
+          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484,1027" sap2010:WorkflowViewState.IdRef="Sequence_42">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Ejercicio 7" sap:VirtualizedContainerService.HintSize="450,967" sap2010:WorkflowViewState.IdRef="Sequence_34">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="scg:List(x:String)" Name="lst_toDo" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:Comment DisplayName="Enunciado" sap:VirtualizedContainerService.HintSize="416,147" sap2010:WorkflowViewState.IdRef="Comment_15" Text="// Haz una lista de tareas que debas hacer hoy. Cuando finalices una tarea, cámbiala por otra nueva. Muestra la nueva tarea que has modificado." />
+              <uasc:BuildCollection x:TypeArguments="x:String" Items="{x:Null}" DisplayName="To Do List" FirstItem="Limpiar habitación" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="BuildCollection`1_1" Result="[lst_toDo]">
+                <uasc:BuildCollection.NextItems>
+                  <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
+                    <InArgument x:TypeArguments="x:String">Dar de comer a Zagara e Illidan</InArgument>
+                    <InArgument x:TypeArguments="x:String">Sacar de paseo a Zagara</InArgument>
+                    <InArgument x:TypeArguments="x:String">Llevar a Illidan al veterinario</InArgument>
+                    <InArgument x:TypeArguments="x:String">Terminar la tarea de UIPath</InArgument>
+                  </scg:List>
+                </uasc:BuildCollection.NextItems>
+              </uasc:BuildCollection>
+              <ui:LogMessage DisplayName="Mostrar lista" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_11" Message="[String.Join(vbNewLine, lst_toDo)]" />
+              <uasa:UpdateListItem x:TypeArguments="x:String" DisplayName="Modificar un elemento de la lista" sap:VirtualizedContainerService.HintSize="416,221" sap2010:WorkflowViewState.IdRef="UpdateListItem`1_1" ItemIndex="2" List="[lst_toDo]" Value="Echarme una siesta" />
+              <ui:LogMessage DisplayName="Lista modificada" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_12" Message="[String.Join(vbNewLine, lst_toDo)]" />
+            </Sequence>
+          </Sequence>
+        </ui:CommentOut.Body>
+      </ui:CommentOut>
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="582,1125" sap2010:WorkflowViewState.IdRef="CommentOut_23">
+        <ui:CommentOut.Body>
+          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="546,1014" sap2010:WorkflowViewState.IdRef="Sequence_44">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Ejercicio 8" sap:VirtualizedContainerService.HintSize="512,954" sap2010:WorkflowViewState.IdRef="Sequence_35">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="str_teclado" />
+                <Variable x:TypeArguments="x:Int32" Name="int_stock" />
+                <Variable x:TypeArguments="x:Double" Name="dou_precioUnitario" />
+                <Variable x:TypeArguments="x:Double" Name="dou_precioInventario" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:Comment DisplayName="Enunciado" sap:VirtualizedContainerService.HintSize="478,225" sap2010:WorkflowViewState.IdRef="Comment_16" Text="// Crea variables para almacenar el nombre de un teclado mecánico que te guste, la cantidad de stock de ese teclado (claro, inventado este dato jeje) y el precio unitario del producto. Usa Assign para calcular el costo total del inventario (multiplicas el precio unitario por la cantidad de productos en stock) y muestra el resultado." />
+              <ui:MultipleAssign DisplayName="Cración de variables" sap:VirtualizedContainerService.HintSize="478,211" sap2010:WorkflowViewState.IdRef="MultipleAssign_2">
+                <ui:MultipleAssign.AssignOperations>
+                  <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_6">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:String">[str_teclado]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:String">Logitech G715</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_7">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:Int32">[int_stock]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:Int32">23879</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_8">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:Double">[dou_precioUnitario]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:Double">159.99</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                  </scg:List>
+                </ui:MultipleAssign.AssignOperations>
+              </ui:MultipleAssign>
+              <Assign sap2010:Annotation.AnnotationText="Para hacer calculos de esta forma necesitamos crear una variable que almacene el resultado y luego hacemos la multiplicacion de las variables que nos interesen para así mostrarlas en el log message!" DisplayName="Calculo" sap:VirtualizedContainerService.HintSize="478,269" sap2010:WorkflowViewState.IdRef="Assign_23">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:Double">[dou_precioInventario]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:Double">[int_stock * dou_precioUnitario]</InArgument>
+                </Assign.Value>
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </Assign>
+              <ui:LogMessage DisplayName="Mostrar precio total inventario" sap:VirtualizedContainerService.HintSize="478,166" sap2010:WorkflowViewState.IdRef="LogMessage_13" Message="[&quot;Tenemos un inventario de &quot; + int_stock.ToString + &quot; unidades de teclados &quot; + str_teclado + &quot;. El precio de cada teclado es de &quot; + dou_precioUnitario.ToString + &quot;. El coste de nuestro inventario es de &quot; + dou_precioInventario.ToString]" />
+            </Sequence>
+          </Sequence>
+        </ui:CommentOut.Body>
+      </ui:CommentOut>
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="582,1305" sap2010:WorkflowViewState.IdRef="CommentOut_24">
+        <ui:CommentOut.Body>
+          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="484,1194" sap2010:WorkflowViewState.IdRef="Sequence_45">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Ejercicio 9" sap:VirtualizedContainerService.HintSize="450,1134" sap2010:WorkflowViewState.IdRef="Sequence_43">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="scg:List(x:String)" Name="lst_animalesFav" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:Comment DisplayName="Enunciado" sap:VirtualizedContainerService.HintSize="416,147" sap2010:WorkflowViewState.IdRef="Comment_17" Text="// Crea una lista de tus 5 animales favoritos y muéstralos. Actualiza uno de los nombres con un nuevo valor y agrega un sexto animal a tu lista. Muestra la lista actualizada." />
+              <uasc:BuildCollection x:TypeArguments="x:String" Items="{x:Null}" DisplayName="Animales fav" FirstItem="Carlinos" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="BuildCollection`1_2" Result="[lst_animalesFav]">
+                <uasc:BuildCollection.NextItems>
+                  <scg:List x:TypeArguments="InArgument(x:String)" Capacity="4">
+                    <InArgument x:TypeArguments="x:String">Periquitos</InArgument>
+                    <InArgument x:TypeArguments="x:String">Tigres</InArgument>
+                    <InArgument x:TypeArguments="x:String">Pingüinos</InArgument>
+                    <InArgument x:TypeArguments="x:String">Hamsters</InArgument>
+                  </scg:List>
+                </uasc:BuildCollection.NextItems>
+              </uasc:BuildCollection>
+              <ui:LogMessage DisplayName="Mostrar animales" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_14" Message="[&quot;Mis animales favoritos son &quot; + String.Join(&quot;, &quot;, lst_animalesFav)]" />
+              <uasa:UpdateListItem x:TypeArguments="x:String" DisplayName="Modificar animal" sap:VirtualizedContainerService.HintSize="416,221" sap2010:WorkflowViewState.IdRef="UpdateListItem`1_2" ItemIndex="3" List="[lst_animalesFav]" Value="Gatos" />
+              <uasa:AppendItemToList x:TypeArguments="x:String" ItemIndex="{x:Null}" DisplayName="Añadir animal" sap:VirtualizedContainerService.HintSize="416,167" sap2010:WorkflowViewState.IdRef="AppendItemToList`1_1" ItemToAppend="Patos" List="[lst_animalesFav]" />
+              <ui:LogMessage DisplayName="Animales actualizados" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_15" Message="[String.Join(&quot;, &quot;, lst_animalesFav)]" />
+            </Sequence>
+          </Sequence>
+        </ui:CommentOut.Body>
+      </ui:CommentOut>
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="582,1045" sap2010:WorkflowViewState.IdRef="CommentOut_25">
+        <ui:CommentOut.Body>
+          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="546,934" sap2010:WorkflowViewState.IdRef="Sequence_47">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Ejercicio 10" sap:VirtualizedContainerService.HintSize="512,874" sap2010:WorkflowViewState.IdRef="Sequence_46">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="x:String" Name="str_nombreUser" />
+                <Variable x:TypeArguments="x:Int32" Name="int_edad" />
+                <Variable x:TypeArguments="x:Double" Name="dou_pesoKg" />
+                <Variable x:TypeArguments="x:Double" Name="dou_alturaM" />
+                <Variable x:TypeArguments="x:Double" Name="dou_IMC" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:Comment DisplayName="Enunciado" sap:VirtualizedContainerService.HintSize="478,147" sap2010:WorkflowViewState.IdRef="Comment_18" Text="// Registra los datos de un usuario: nombre, edad, peso y altura. Usa la actividad Assign para calcular su IMC (fórmula: IMC = peso/(altura*altura). Muestra el resultado." />
+              <ui:MultipleAssign DisplayName="Creación de variables" sap:VirtualizedContainerService.HintSize="478,242" sap2010:WorkflowViewState.IdRef="MultipleAssign_3">
+                <ui:MultipleAssign.AssignOperations>
+                  <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_9">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:String">[str_nombreUser]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:String">Marcos</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_10">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:Int32">[int_edad]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:Int32">32</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_11">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:Double">[dou_pesoKg]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:Double">87.2</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_12">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:Double">[dou_alturaM]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:Double">1.98</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                  </scg:List>
+                </ui:MultipleAssign.AssignOperations>
+              </ui:MultipleAssign>
+              <Assign DisplayName="Calculo" sap:VirtualizedContainerService.HintSize="478,175" sap2010:WorkflowViewState.IdRef="Assign_24">
+                <Assign.To>
+                  <OutArgument x:TypeArguments="x:Double">[dou_IMC]</OutArgument>
+                </Assign.To>
+                <Assign.Value>
+                  <InArgument x:TypeArguments="x:Double">[dou_pesoKg / (dou_alturaM * dou_alturaM)]</InArgument>
+                </Assign.Value>
+              </Assign>
+              <ui:LogMessage sap2010:Annotation.AnnotationText="Aquí vamos a usar la expresión Math.Round(variableIMC) para redondearla a un numero entero y que quede mas bonico ;3" DisplayName="Resultado IMC" sap:VirtualizedContainerService.HintSize="478,227" sap2010:WorkflowViewState.IdRef="LogMessage_16" Message="[&quot;El IMC de nuestro cliente &quot; + str_nombreUser + &quot; es de &quot; + Math.Round(dou_IMC).ToString]">
+                <sap:WorkflowViewStateService.ViewState>
+                  <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                    <x:Boolean x:Key="IsAnnotationDocked">True</x:Boolean>
+                  </scg:Dictionary>
+                </sap:WorkflowViewStateService.ViewState>
+              </ui:LogMessage>
+            </Sequence>
+          </Sequence>
+        </ui:CommentOut.Body>
+      </ui:CommentOut>
+      <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="582,1088" sap2010:WorkflowViewState.IdRef="CommentOut_27">
+        <ui:CommentOut.Body>
+          <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="546,986" sap2010:WorkflowViewState.IdRef="Sequence_51">
+            <sap:WorkflowViewStateService.ViewState>
+              <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+              </scg:Dictionary>
+            </sap:WorkflowViewStateService.ViewState>
+            <Sequence DisplayName="Ejercicio 11" sap:VirtualizedContainerService.HintSize="512,926" sap2010:WorkflowViewState.IdRef="Sequence_48">
+              <Sequence.Variables>
+                <Variable x:TypeArguments="scg:List(x:Int32)" Name="lst_calificaciones" />
+              </Sequence.Variables>
+              <sap:WorkflowViewStateService.ViewState>
+                <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                  <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                </scg:Dictionary>
+              </sap:WorkflowViewStateService.ViewState>
+              <ui:Comment DisplayName="Enunciado" sap:VirtualizedContainerService.HintSize="478,147" sap2010:WorkflowViewState.IdRef="Comment_19" Text="// Crea una lista con 6 calificaciones de estudiantes y muéstrala por pantalla. Actualiza ahora 2 calificaciones y muestra todas las calificaciones actualizadas." />
+              <uasc:BuildCollection x:TypeArguments="x:Int32" Items="{x:Null}" DisplayName="Creacion de lista" FirstItem="5" sap:VirtualizedContainerService.HintSize="478,175" sap2010:WorkflowViewState.IdRef="BuildCollection`1_3" Result="[lst_calificaciones]">
+                <uasc:BuildCollection.NextItems>
+                  <scg:List x:TypeArguments="InArgument(x:Int32)" Capacity="8">
+                    <InArgument x:TypeArguments="x:Int32">8</InArgument>
+                    <InArgument x:TypeArguments="x:Int32">4</InArgument>
+                    <InArgument x:TypeArguments="x:Int32">10</InArgument>
+                    <InArgument x:TypeArguments="x:Int32">9</InArgument>
+                    <InArgument x:TypeArguments="x:Int32">10</InArgument>
+                  </scg:List>
+                </uasc:BuildCollection.NextItems>
+              </uasc:BuildCollection>
+              <ui:LogMessage DisplayName="Mostrar calificaciones" sap:VirtualizedContainerService.HintSize="478,175" sap2010:WorkflowViewState.IdRef="LogMessage_17" Message="[&quot;Las notas de mi alumno son: &quot; + vbNewLine + String.Join(vbNewLine, lst_calificaciones)]" />
+              <ui:MultipleAssign DisplayName="Modificación" sap:VirtualizedContainerService.HintSize="478,180" sap2010:WorkflowViewState.IdRef="MultipleAssign_4">
+                <ui:MultipleAssign.AssignOperations>
+                  <scg:List x:TypeArguments="ui:AssignOperation" Capacity="4">
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_13">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:Int32">[lst_calificaciones(3)]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:Int32">7</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                    <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_14">
+                      <ui:AssignOperation.To>
+                        <OutArgument x:TypeArguments="x:Int32">[lst_calificaciones(5)]</OutArgument>
+                      </ui:AssignOperation.To>
+                      <ui:AssignOperation.Value>
+                        <InArgument x:TypeArguments="x:Int32">9</InArgument>
+                      </ui:AssignOperation.Value>
+                    </ui:AssignOperation>
+                  </scg:List>
+                </ui:MultipleAssign.AssignOperations>
+              </ui:MultipleAssign>
+              <ui:LogMessage DisplayName="Lista actualizada" sap:VirtualizedContainerService.HintSize="478,166" sap2010:WorkflowViewState.IdRef="LogMessage_18" Message="[&quot;Las notas actualizadas son: &quot; + vbNewLine + String.Join(&quot; | &quot;, lst_calificaciones)]" />
+            </Sequence>
+          </Sequence>
+        </ui:CommentOut.Body>
+      </ui:CommentOut>
+    </Sequence>
+  </Sequence>
+</Activity>
