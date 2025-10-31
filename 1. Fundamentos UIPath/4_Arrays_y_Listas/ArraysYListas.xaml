@@ -35,11 +35,22 @@
   </TextExpression.NamespacesForImplementation>
   <TextExpression.ReferencesForImplementation>
     <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>GlobalVariablesT1PNoYwrqg</AssemblyReference>
       <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
       <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>NPOI.Core</AssemblyReference>
       <AssemblyReference>System</AssemblyReference>
       <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
       <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
       <AssemblyReference>System.Core</AssemblyReference>
       <AssemblyReference>System.Data</AssemblyReference>
       <AssemblyReference>System.Data.Common</AssemblyReference>
@@ -48,43 +59,34 @@
       <AssemblyReference>System.Drawing.Common</AssemblyReference>
       <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
       <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Linq.Async</AssemblyReference>
+      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Memory.Data</AssemblyReference>
       <AssemblyReference>System.Net.Mail</AssemblyReference>
       <AssemblyReference>System.ObjectModel</AssemblyReference>
       <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
       <AssemblyReference>System.Xaml</AssemblyReference>
       <AssemblyReference>System.Xml</AssemblyReference>
       <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
       <AssemblyReference>UiPath.System.Activities</AssemblyReference>
       <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
-      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
-      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
-      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
-      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
-      <AssemblyReference>UiPath.Excel.Activities.Design</AssemblyReference>
-      <AssemblyReference>System.Memory.Data</AssemblyReference>
-      <AssemblyReference>System.Console</AssemblyReference>
-      <AssemblyReference>System.Security.Permissions</AssemblyReference>
-      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
-      <AssemblyReference>System.ComponentModel</AssemblyReference>
-      <AssemblyReference>System.Memory</AssemblyReference>
-      <AssemblyReference>System.Private.Uri</AssemblyReference>
-      <AssemblyReference>NPOI.Core</AssemblyReference>
-      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
-      <AssemblyReference>System.Linq.Async</AssemblyReference>
-      <AssemblyReference>System.Collections</AssemblyReference>
-      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
-      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
-      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
-      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
-      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
-      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
-      <AssemblyReference>System.CodeDom</AssemblyReference>
-      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
-      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
-      <AssemblyReference>System.Linq.Async.Queryable</AssemblyReference>
-      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
-      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
-      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
   <Sequence DisplayName="ArraysYListas" sap:VirtualizedContainerService.HintSize="639,4902" sap2010:WorkflowViewState.IdRef="Sequence_1">
@@ -127,9 +129,9 @@
             <InArgument x:TypeArguments="s:Int32[]">[{1,2,3,4,5,6,7,8,9,10,11,12}]</InArgument>
           </Assign.Value>
         </Assign>
-        <ui:Comment sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="Comment_1" Text="// Para mostrar tus arrays o listas necesitamos poner la variable de tal forma: &#xD;&#xA;// String.Join(&quot;Separador&quot;, tuArrayOLista)&#xD;&#xA;// Recuerda que puedes concatenar texto con tus variables usando + o &amp;, yo uso + siempre :3&#xD;&#xA;// Y si tienes un tipo que no sea string recuerda convertirlo al final con un .toString&#xD;&#xA;// Muakisss!" />
+        <ui:Comment sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="Comment_1" Text="// Para mostrar tus arrays o listas necesitamos poner la variable de tal forma: &#xA;// String.Join(&quot;Separador&quot;, tuArrayOLista)&#xA;// Recuerda que puedes concatenar texto con tus variables usando + o &amp;, yo uso + siempre :3&#xA;// Y si tienes un tipo que no sea string recuerda convertirlo al final con un .toString&#xA;// Muakisss!" />
         <ui:LogMessage DisplayName="Mostrar ambas arrays" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_1" Message="[&quot;Tenemos &quot; + String.Join(&quot;, &quot;, arr_str_diasSemana) + &quot; como días de la semana y &quot; + vbCrLf + String.Join(vbCrLf, arr_int_meses) + &quot; meses en el año!&quot;]" />
-        <ui:Comment sap:VirtualizedContainerService.HintSize="416,167" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// Para mostrar un unico elemento de tu array, en el log message/message box pones tuArray(posiciónElemento).&#xD;&#xA;// Recuerda!! Se empieza a contar desde 0, por ende Lunes = 0, Martes = 1, etc." />
+        <ui:Comment sap:VirtualizedContainerService.HintSize="416,167" sap2010:WorkflowViewState.IdRef="Comment_2" Text="// Para mostrar un unico elemento de tu array, en el log message/message box pones tuArray(posiciónElemento).&#xA;// Recuerda!! Se empieza a contar desde 0, por ende Lunes = 0, Martes = 1, etc." />
         <ui:LogMessage DisplayName="Mostrar 1 elemento de ambas arrays" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_2" Message="[&quot;El primer día de la semana es &quot; + arr_str_diasSemana(0) + &quot; y Marzo es el mes número &quot; + arr_int_meses(2).ToString + &quot; del año!&quot;]" />
         <ui:Comment sap:VirtualizedContainerService.HintSize="416,108" sap2010:WorkflowViewState.IdRef="Comment_3" Text="// Para modificar un elemento seleccionas la posición y ya debajo lo modificas ;3" />
         <Assign DisplayName="Modificar un elemento de nuestra array" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="Assign_4">
@@ -175,7 +177,7 @@
           </uasc:AppendItemToCollection.Items>
         </uasc:AppendItemToCollection>
         <ui:LogMessage DisplayName="Mostrar elementos añadidos" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_6" Message="[String.Join(vbCrLf, lst_str_users)]" />
-        <ui:Comment sap:VirtualizedContainerService.HintSize="416,264" sap2010:WorkflowViewState.IdRef="Comment_5" Text="// Otra forma de crear listas o colecciones de datos es con la actividad Build Collection.&#xD;&#xA;// Cuando la arrastras, a la derecha en el panel Properties creas la variable (Ctrl + K y escribes su nombre).&#xD;&#xA;// En Data Manager le cambias el tipo buscando en browse &quot;generic.list&quot; y seleccionando el tipo que quieras (string, double, int32...)&#xD;&#xA;// En first item introduce tu primer elemento y en Next items los siguientes! " />
+        <ui:Comment sap:VirtualizedContainerService.HintSize="416,264" sap2010:WorkflowViewState.IdRef="Comment_5" Text="// Otra forma de crear listas o colecciones de datos es con la actividad Build Collection.&#xA;// Cuando la arrastras, a la derecha en el panel Properties creas la variable (Ctrl + K y escribes su nombre).&#xA;// En Data Manager le cambias el tipo buscando en browse &quot;generic.list&quot; y seleccionando el tipo que quieras (string, double, int32...)&#xA;// En first item introduce tu primer elemento y en Next items los siguientes! " />
         <uasc:BuildCollection x:TypeArguments="x:Int32" Items="{x:Null}" DisplayName="Build Collection: Otra forma de crear listas" FirstItem="555555555" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="BuildCollection`1_1" Result="[lst_int_telefonos]">
           <uasc:BuildCollection.NextItems>
             <scg:List x:TypeArguments="InArgument(x:Int32)" Capacity="4">
@@ -196,7 +198,7 @@
           </Assign.Value>
         </Assign>
         <ui:LogMessage DisplayName="Mostrar modificacion" sap:VirtualizedContainerService.HintSize="416,175" sap2010:WorkflowViewState.IdRef="LogMessage_8" Message="[String.Join(&quot; , &quot;, lst_int_telefonos)]" />
-        <ui:Comment sap:VirtualizedContainerService.HintSize="416,167" sap2010:WorkflowViewState.IdRef="Comment_7" Text="// Para borrar un elemento (o todos) usamos la actividad Remove From Collection&#xD;&#xA;// Seleccionas tu lista&#xD;&#xA;// Especificas si borras uno en concreto o todos&#xD;&#xA;// Escribes exactamente el elemento a borrar&#xD;&#xA;// Tadaaaa!!!" />
+        <ui:Comment sap:VirtualizedContainerService.HintSize="416,167" sap2010:WorkflowViewState.IdRef="Comment_7" Text="// Para borrar un elemento (o todos) usamos la actividad Remove From Collection&#xA;// Seleccionas tu lista&#xA;// Especificas si borras uno en concreto o todos&#xA;// Escribes exactamente el elemento a borrar&#xA;// Tadaaaa!!!" />
         <uasc:RemoveFromCollection x:TypeArguments="x:Int32" Index="{x:Null}" Collection="[lst_int_telefonos]" DisplayName="Remove From Collection" sap:VirtualizedContainerService.HintSize="416,252" sap2010:WorkflowViewState.IdRef="RemoveFromCollection`1_1" Item="234324234" RemoveAllElements="False" />
         <ui:LogMessage DisplayName="Mostrar elemento borrado" sap:VirtualizedContainerService.HintSize="416,166" sap2010:WorkflowViewState.IdRef="LogMessage_9" Message="[String.Join(&quot; ~ &quot;, lst_int_telefonos)]" />
       </Sequence>
