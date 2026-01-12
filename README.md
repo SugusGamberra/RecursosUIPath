@@ -52,10 +52,12 @@ Cada carpeta del repositorio, ordenada del 1 en adelante, contiene una lección.
 | Subcarpeta: [`7-diccionarios`](./1.%20Fundamentos%20UIPath/7-diccionarios/) | Creación de diccionarios | ✅ |
 | Subcarpeta: [`8-escrituraLectura`](./1.%20Fundamentos%20UIPath/8-escrituraLectura/) | Escritura y lectura de archivos | ✅ |
 | Subcarpeta: [`9-tiposFlujos`](./1.%20Fundamentos%20UIPath/9-tiposFlujos/) | Tipos de flujos (**condicionales** e **iterativos**) | ✅ |
+| Subcarpeta: [`10-funciones`](./1.%20Fundamentos%20UIPath/10-funciones/) | Tipos de funciones de cadenas y otras | ✅ |
 
 ## 🚀 Empieza por aquí
 
 👉 **Primer paso:** entra en `1. Fundamentos UIPath` para ver la base teórica.
+🫦 **Siguiente paso:** Si te sientes juguetonchis entra en `0. Actividades y resolución de las mismas` para ir practicando 🙈
 
 ---
 
