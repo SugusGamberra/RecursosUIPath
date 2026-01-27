@@ -41,7 +41,6 @@ Cada carpeta del repositorio, ordenada del 1 en adelante, contiene una lección.
 | 📁 Carpeta | 📝 Contenido | 📊 Estado |
 | :--- | :--- | :---: |
 | [`0. Actividades y resolución de las mismas`](./0.%20Actividades%20y%20resolución%20de%20las%20mismas/) | Actividades para practicar lo aprendido | ⏳ En desarrollo |
-| Subcarpeta: [`1. Actividades primer bloque`](./0.%20Actividades%20y%20resolución%20de%20las%20mismas/1.%20Actividades%20primer%20bloque/) | Primera tanda de actividades con su resolución | ✅ |
 | [`1. Fundamentos UIPath`](./1.%20Fundamentos%20UIPath/) | Curso en sí | ⏳ En desarrollo |
 | Subcarpeta: [`1-secuenciaYComentarios`](./1.%20Fundamentos%20UIPath/1-secuenciaYComentarios/) | Primer programa básico: `Hello world` | ✅ |
 | Subcarpeta: [`2-assignYVariables`](./1.%20Fundamentos%20UIPath/2-assignYVariables/) | Creación de variables | ✅ |
@@ -53,6 +52,7 @@ Cada carpeta del repositorio, ordenada del 1 en adelante, contiene una lección.
 | Subcarpeta: [`8-escrituraLectura`](./1.%20Fundamentos%20UIPath/8-escrituraLectura/) | Escritura y lectura de archivos | ✅ |
 | Subcarpeta: [`9-tiposFlujos`](./1.%20Fundamentos%20UIPath/9-tiposFlujos/) | Tipos de flujos (**condicionales** e **iterativos**) | ✅ |
 | Subcarpeta: [`10-funciones`](./1.%20Fundamentos%20UIPath/10-funciones/) | Tipos de funciones de cadenas y otras | ✅ |
+| Subcarpeta: [`11-dataTables`](./1.%20Fundamentos%20UIPath/11-dataTables/) | DataTables, cómo usarlas y actividades para manejarlas | ✅ |
 
 ## 🚀 Empieza por aquí
 
