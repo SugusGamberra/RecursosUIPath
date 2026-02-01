@@ -53,6 +53,7 @@ Cada carpeta del repositorio, ordenada del 1 en adelante, contiene una lección.
 | Subcarpeta: [`9-tiposFlujos`](./1.%20Fundamentos%20UIPath/9-tiposFlujos/) | Tipos de flujos (**condicionales** e **iterativos**) | ✅ |
 | Subcarpeta: [`10-funciones`](./1.%20Fundamentos%20UIPath/10-funciones/) | Tipos de funciones de cadenas y otras | ✅ |
 | Subcarpeta: [`11-dataTables`](./1.%20Fundamentos%20UIPath/11-dataTables/) | DataTables, cómo usarlas y actividades para manejarlas | ✅ |
+| Subcarpeta: [`12-tryCatch`](./1.%20Fundamentos%20UIPath/12-tryCatch/) | Try-Catch-Finally, qué es y cómo usarlo! | ✅ |
 
 ## 🚀 Empieza por aquí
 
