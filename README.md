@@ -40,8 +40,8 @@ Cada carpeta del repositorio, ordenada del 1 en adelante, contiene una lección.
 
 | 📁 Carpeta | 📝 Contenido | 📊 Estado |
 | :--- | :--- | :---: |
-| [`0. Actividades y resolución de las mismas`](./0.%20Actividades%20y%20resolución%20de%20las%20mismas/) | Actividades para practicar lo aprendido | ⏳ En desarrollo |
-| [`1. Fundamentos UIPath`](./1.%20Fundamentos%20UIPath/) | Curso en sí | ⏳ En desarrollo |
+| [`0. Actividades y resolución de las mismas`](./0.%20Actividades%20y%20resolución%20de%20las%20mismas/) | Actividades para practicar lo aprendido | ✅ |
+| [`1. Fundamentos UIPath`](./1.%20Fundamentos%20UIPath/) | Curso en sí | ✅ |
 | Subcarpeta: [`1-secuenciaYComentarios`](./1.%20Fundamentos%20UIPath/1-secuenciaYComentarios/) | Primer programa básico: `Hello world` | ✅ |
 | Subcarpeta: [`2-assignYVariables`](./1.%20Fundamentos%20UIPath/2-assignYVariables/) | Creación de variables | ✅ |
 | Subcarpeta: [`3-multipleAssign`](./1.%20Fundamentos%20UIPath/3-multipleAssign/) | Creación de variables en tanda | ✅ |
@@ -54,6 +54,7 @@ Cada carpeta del repositorio, ordenada del 1 en adelante, contiene una lección.
 | Subcarpeta: [`10-funciones`](./1.%20Fundamentos%20UIPath/10-funciones/) | Tipos de funciones de cadenas y otras | ✅ |
 | Subcarpeta: [`11-dataTables`](./1.%20Fundamentos%20UIPath/11-dataTables/) | DataTables, cómo usarlas y actividades para manejarlas | ✅ |
 | Subcarpeta: [`12-tryCatch`](./1.%20Fundamentos%20UIPath/12-tryCatch/) | Try-Catch-Finally, qué es y cómo usarlo! | ✅ |
+| Subcarpeta: [`13-selectores-interaccion-con-ui`](./1.%20Fundamentos%20UIPath/13-selectores-interaccion-con-ui/) | Selectores e interacción con la UI | ✅ |
 
 ## 🚀 Empieza por aquí
 
