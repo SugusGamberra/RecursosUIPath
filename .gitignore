@@ -1,0 +1,13 @@
+# Carpetas locales y de cache de UiPath
+.local/
+.settings/
+.objects/
+.project/
+.tmh/
+.entities/
+.templates/
+
+# Archivos de backup o temporales
+*.bak
+*.local
+~$*.xlsx
